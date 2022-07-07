@@ -1,9 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { RegisterForm } from "./RegisterForm";
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <RegisterForm />
     </div>
   );
 }

@@ -44,6 +44,7 @@ describe("register form test suite", () => {
         ...userInput,
       },
     });
+
     expect(submitButton).toHaveAttribute("type", "submit");
 
     userEvent.type(emailInput, userInput.email);
